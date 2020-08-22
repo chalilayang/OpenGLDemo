@@ -1,5 +1,7 @@
 package edu.wuwang.opengl;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import edu.wuwang.opengl.blend.BlendActivity;
 import edu.wuwang.opengl.camera.Camera3Activity;
 import edu.wuwang.opengl.light.LightActivity;
@@ -8,9 +10,6 @@ import java.util.ArrayList;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
